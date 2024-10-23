@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{display: flex;
+    ign-items: center;
+    padding: 20px;
+        justify-content: space-between;
+        width: 100VW;
+    
+    }
+
+    .container{width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    margin: 0 auto;}
+
+    .logo{border: 1px solid black;
+    width: fit-content;
+padding}
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;}
+    
+
+
+
+a{text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    color: black;
+   
+}
+
+.middle-list{display: flex;
+    align-items: center;
+    justify-content: space-between;}
+
+    .hero-image{background: #f4f4f4;
+    margin: auto;
+    width: 80%;
+    display: flex;}
+
+    .hero-image-content{
+    width: 50%;        
+    }
+
+    .hero-image-text{display: flex;
+    align-items: center;
+justify-content: center;
+flex-direction: column;}
